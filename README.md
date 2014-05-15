@@ -1,9 +1,9 @@
 CustomUICollectionViewLayout
 ============================
 
-<pre>
-A custom layout for UICollectionView
+A custom layout for UICollectionView<br>
 
+<pre>
 The cell's index of UICollectionView in horizontal scroll is
 
 +---+---+---+
@@ -19,19 +19,15 @@ but I want it to be
 +---+---+---+
 | 4 | 5 | 6 |
 +---+---+---+.
-
-So, I refer some data from Internet and write a layout to reorder cell's index;
-
 </pre>
+So, I refer some data from Internet and write a layout to reorder cell's index;<br>
 
 Usage
 ============================
 
+Import CustomCollectionViewLayout.h/.m file to project, and init UICollectionView with it.<br>
+ex:<br>
 <pre>
-
-Import CustomCollectionViewLayout.h/.m file to project, and init UICollectionView with it.  
-ex:  
-UICollectionView *collectionView = [UICollectionView alloc]initWithFrame:CGRectMake(x, y, width, height)  
-                                                    collectionViewLayout:[CustomCollectionViewLayout new]];
-
-<pre>
+UICollectionView *cV = [UICollectionView alloc]initWithFrame:CGRectMake(x, y, width, height)
+                                        collectionViewLayout:[CustomCollectionViewLayout new]];
+</pre>
