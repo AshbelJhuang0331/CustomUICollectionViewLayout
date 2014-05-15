@@ -31,3 +31,8 @@ ex:<br>
 UICollectionView *cV = [UICollectionView alloc]initWithFrame:CGRectMake(x, y, width, height)
                                         collectionViewLayout:[CustomCollectionViewLayout new]];
 </pre>
+
+License
+============================
+
+<a href="http://en.wikipedia.org/wiki/WTFPL">WTFPL</a>
