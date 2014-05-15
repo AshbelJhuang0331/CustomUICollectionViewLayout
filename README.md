@@ -20,7 +20,7 @@ but I want it to be
 | 4 | 5 | 6 |
 +---+---+---+.
 </pre>
-So, I refer some data from Internet and write a layout to reorder cell's index;<br>
+So, I refer some data from internet and write a layout to reorder cell's index;<br>
 
 Usage
 ============================
